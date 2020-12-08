@@ -1,0 +1,14 @@
+type: SolarGenerator
+name: energy
+description: Superpower turret.
+
+size: 1
+health: 20000
+powerProduction : 1000000
+requirements: [
+	copper/1
+]
+
+category: power
+research: duo
+

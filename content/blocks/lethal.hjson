@@ -1,0 +1,22 @@
+type: ItemTurret
+name: lethal
+description: lethal turret.
+
+size: 1
+health: 20000
+range: 40000
+	
+ammoTypes: {
+	copper: {
+	 type: ShrapnelBulletType
+	 length: 40000
+		damage: 9966f
+		}
+}
+
+requirements: [
+	copper/1
+]
+
+category: turret
+research: duo
